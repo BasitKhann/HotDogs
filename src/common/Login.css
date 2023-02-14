@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* min-height: 100vh; */
+  align-items: center;
+}
+
+.loginContainer {
+  align-self: flex-start;
+  margin-top: 67px;
+  min-width: 45%;
+  max-width: 50%;
+  padding: 30px;
+  box-shadow: 0 0 32px -19px lightslategrey;
+  border-radius: 10px;
+}
+
+.loginForm-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginForm-header .newUser-actions {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.7rem;
+}
+.newUser-actions .newUser-signup {
+  font-size: 1rem;
+}
+label {
+  font-weight: 400 !important;
+}
+input::placeholder {
+  color: lightslategray !important;
+  font-size: 0.7rem;
+}
+.loginContainer-header {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.btnsignIn {
+  margin-top: 20px;
+}
+
+.btn-login {
+  margin-top: 15px;
+  width: 100% !important;
+  padding: 0.3rem 1rem !important;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: center;
+}

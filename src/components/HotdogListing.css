@@ -1,0 +1,36 @@
+.card {
+  width: 300px;
+  height: auto;
+  border-radius: 5px !important;
+}
+.card > img {
+  height: 200px;
+  object-fit: cover;
+}
+.location {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.card-title {
+  margin-bottom: 0 !important;
+  font-family: "lotto";
+}
+.card-body {
+  margin-top: 8px;
+  padding: 10px !important;
+}
+
+.card-text {
+  color: lightslategrey;
+  font-size: 0.9rem !important;
+}
+.rating {
+  margin-bottom: 0 !important;
+  margin-top: 8px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+}

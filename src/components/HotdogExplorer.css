@@ -1,0 +1,8 @@
+.explorer {
+  padding: 20px 75px 0px 75px;
+}
+.explorer--title > p {
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 0 0 5px 10px lightslategrey;
+}

@@ -1,0 +1,30 @@
+.hero-section {
+  padding-top: 43px;
+}
+.hero-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.heroContent {
+  padding: 20px;
+}
+
+.heroContent h1 {
+  color: #8b5300;
+  font-family: fantasy;
+}
+
+.btnExplore {
+  border: 1px solid #8b5300;
+}
+
+.hero-image {
+  justify-self: flex-start;
+  width: 100%;
+}
+
+.hero-image img {
+  width: 80%;
+}
